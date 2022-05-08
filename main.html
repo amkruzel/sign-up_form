@@ -5,8 +5,62 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign Up</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <main>
+    <div class="left-pane">
+      <div class="logo">
+        <img src="/media/logo.png" alt="Cat Logo" height="85%">
+        BUSTER
+      </div>
+      <div>
+        Cat icons created by <a href="https://www.flaticon.com/free-icons/cat" title="cat icons">Freepik - Flaticon</a>
+      </div>
+    </div>
+    <div class="right-pane">
+      <div class="text-box">
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore <em>veritatis</em> et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        <p>Lorem <span class="emphasis">Ipsum</span> dolor sit amet. </p>
+      </div>
+      <form action="#" method="get">
+        <div>
+          <div class="form-inputs">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name">
+          </div>
+          <div>
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name">
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div>
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone">
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+          </div>
+          <div>
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" name="confirm-password" id="confirm-password">
+          </div>
+        </div>
+
+        <div>
+          <button type="submit" name="submit" id="submit">Create Account</button>
+        </div>
+      </form>
+    </div>
+  </main>
 </body>
+
 </html>
