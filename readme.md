@@ -4,7 +4,7 @@ This is a project to practice using html and css to create a webpage, modeled af
 
 ## Usage
 
-You can view the completed project [here](#)
+You can view the completed project [here](https://amkruzel.github.io/sign-up_form/)
 
 ## License
 
