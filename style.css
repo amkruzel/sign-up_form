@@ -13,7 +13,7 @@ main > div + div {
 .left-pane {
   height: 100vh;
   width: 40vw;
-  background-image: url("./media/buster.jpg");
+  background-image: url("media/buster.jpg");
   background-size: auto max(100vh, calc(40vw + 100%));
   background-repeat: no-repeat;
   background-position: center;
